@@ -8,11 +8,6 @@ from langchain_openai import ChatOpenAI, OpenAI
 def main():
     st.set_page_config(page_title="Ask NFL Stats", layout="wide")
 
-    st.write(
-        "Has environment variables been set:",
-        os.environ["OPENAI_API_KEY"] == st.secrets["OPENAI_API_KEY"],
-    )
-    
     agent = create_csv_agent(
             ChatOpenAI(temperature=0, model="gpt-4o", max_tokens=1000),
             "play_by_play_2024.csv",
