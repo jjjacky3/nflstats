@@ -13,7 +13,7 @@ def main():
 
     agent = create_csv_agent(
             ChatOpenAI(temperature=0, model="gpt-4o", max_tokens=1000),
-            "play_by_play_1999_full.csv",
+            "play_by_play_2024.csv",
             verbose=True,
             agent_type=AgentType.OPENAI_FUNCTIONS,
             allow_dangerous_code=True
@@ -33,7 +33,7 @@ def main():
         st.header("Sample questions")
 
         st.subheader("How many rows are there in the dataset?", divider=True)
-        st.subheader("How many passing yards gained by PHI in the game vs ARI?", divider=True)
+        st.subheader("How many passing yards gained by SEA in the game vs SF?", divider=True)
 
 
 if __name__ == "__main__":
