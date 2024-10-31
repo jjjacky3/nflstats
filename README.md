@@ -2,6 +2,8 @@
 
 NFLStats is a powerful tool that allows you to query structured NFL data using natural language. Built with LangChain and powered by OpenAI's LLM, it features a user-friendly interface developed using the Streamlit library.
 
+I’ve deployed the NFLStats app on Streamlit Community Cloud with [2024 play by play data](https://github.com/nflverse/nflverse-data/releases/tag/pbp), which is free to use. You can try it out here: [NFLStats](https://nflstats-jacky.streamlit.app/)
+
 ## Installation
 
 To get started, follow these steps:
