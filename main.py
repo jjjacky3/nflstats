@@ -31,8 +31,9 @@ def main():
 
         st.subheader("How many rows are there in the dataset?", divider=True)
         st.subheader("How many passing yards gained by SEA in the game vs SF?", divider=True)
-        st.subheader("who is Seahawk's quarter back?", divider=True)
-        st.subheader("who in Seahawk has the most penalty by yards?", divider=True)
+        st.subheader("Who is Seahawk's quarter back?", divider=True)
+        st.subheader("Who in Seahawk has the most penalty by yards?", divider=True)
+        st.subheader("Who in Seahawk has the most rushing yards so far in 2024?", divider=True)
 
 
 if __name__ == "__main__":

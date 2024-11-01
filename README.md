@@ -7,7 +7,7 @@ I’ve deployed the NFLStats app on the free to use [Streamlit Community Cloud](
 ## Introduction
 While LLMs are impressive, I often wonder how they can answer questions without access to specific knowledge. For instance, how do they tackle NFL-related inquiries? Can they intelligently search the web for answers? What if the data isn’t publicly available or is formatted as structured text rather than natural language?
 
-Interestingly, LLM agents can help address these challenges. This concept is based on the paper titled "ReAct: Synergizing Reasoning and Acting in Language Models." An LLM agent can reason through your prompts and suggest actions, such as querying a dataset, to tackle the problem. The agent also has memory capabilities to support sequential reasoning.
+Interestingly, LLM agents can help address these challenges. This concept is based on the paper titled "[ReAct: Synergizing Reasoning and Acting in Language Models](https://research.google/blog/react-synergizing-reasoning-and-acting-in-language-models/)" An LLM agent can reason through your prompts and suggest actions, such as querying a dataset, to tackle the problem. The agent also has memory capabilities to support sequential reasoning.
 
 This project is a very simple chatbot using LangChain's CSV agent with OpenAI's ChatGPT LLM to answer questions about NFL games. The agent leverages the LLM to understand the questions and generates a sequence of data queries against the NFL play-by-play data in the CSV files, enabling it to provide accurate answers.
 
